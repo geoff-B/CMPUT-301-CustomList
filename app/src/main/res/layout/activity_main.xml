@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/add_city_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8">
+        </EditText>
+        <EditText
+            android:id="@+id/add_province_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="7">
+        </EditText>
+        <Button
+            android:id="@+id/add_city_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add City">
+        </Button>
+    </LinearLayout>
 
-    <ListView
-        android:id="@+id/city_list"
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </ListView>
+        <ListView
+            android:id="@+id/city_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:listSelector="#B3B3B3">
+
+        </ListView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/deleteFAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:clickable="true"
+            android:tint="#FFFFFF"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/ic_delete"
+            app:useCompatPadding="true" />
+    </FrameLayout>
 
 </LinearLayout>

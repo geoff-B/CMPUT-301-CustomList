@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "364393630613",
+    "project_id": "listycity-383ea",
+    "storage_bucket": "listycity-383ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364393630613:android:fb4fd67552c8957eab449c",
+        "android_client_info": {
+          "package_name": "com.example.simpleparadox.listycity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364393630613-6j4p38kpivavav9i4rk1c9vtadtphkt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6haIWobbj1CthBkMyzOuJ4w5XhZZDKyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364393630613-6j4p38kpivavav9i4rk1c9vtadtphkt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
