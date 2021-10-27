@@ -10,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.example.simpleparadox.com.example.simpleparadox.listycity.R;
+
 import org.w3c.dom.Text;
 
 import java.util.ArrayList;
@@ -46,5 +48,12 @@ public class CustomList extends ArrayAdapter<City> {
 
         return view;
 
+    }
+    @Override
+    public int getCount() {
+        return cities.size();
+    }
+
+    public void addCity(City city) {
     }
 }

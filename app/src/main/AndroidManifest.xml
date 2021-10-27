@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.simpleparadox.listycity">
+    package="com.example.simpleparadox.com.example.simpleparadox.listycity">
 
     <application
         android:allowBackup="true"
